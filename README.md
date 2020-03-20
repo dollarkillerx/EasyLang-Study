@@ -10,3 +10,19 @@
 - 菜单与网络 & 配置文件 & 注册表 [day2/demo2.e]
 - 代码纠错 & 调试分析
 - 文件读写 & 易类 [day2/demo3.e]
+- 时钟和线程 [day3/demo1.e] (时钟 一个线程定时执行某方法)
+- 一个简单游戏登陆器 [day3/demo2.e]
+
+
+### 获取进程
+- CMD获取启动的进程
+```
+wmic
+process
+process where (description="chrome.exe")
+```
+- OD 在CreateProcessA api上断点 捕获
+
+
+### 辅助入门
+- 窗口相关 与 热键 [day3/demo3.e]  (需要超级模块支持)
