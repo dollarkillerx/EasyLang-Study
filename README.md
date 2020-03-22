@@ -35,6 +35,7 @@ process where (description="chrome.exe")
     - 程序集变量  静态地址  (c语言,c++,易语言)  栈上
     - 全局变量 静态地址     (c语言,c++,易语言)  栈上
 - 程序自动更新 [day5/demo3.e]
+- 内存读写 [day5/demo4_cpp.e]  [day5/ce_test.cpp]
 
 
 ### 内存
